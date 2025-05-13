@@ -1,0 +1,7 @@
+how are you: I'm just a bot, but I'm here to help you, {0}! How can I assist you today?
+what's your purpose: My purpose is to help you stay safe online, {0}. I can provide tips on password safety, phishing, and safe browsing.
+what can i ask you: You can ask me about cybersecurity topics like password safety, phishing, and safe browsing, {0}.
+password safety: Creating a strong password is crucial, {0}. Use a mix of letters, numbers, and special characters. Avoid using common words or personal information as well as using a single password for different sites.
+phishing: Phishing is a type of online scam where attackers try to trick you into giving them your personal information. Always verify the sender's email address and avoid clicking on suspicious links, {0}.
+safe browsing: To browse safely, {0}, make sure to use HTTPS websites, avoid downloading files from untrusted sources, and keep your browser and antivirus software up to date.
+default: I didn't quite understand that, {0}. Could you rephrase or ask about cybersecurity topics like password safety, phishing, or safe browsing?
