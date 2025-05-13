@@ -1,0 +1,25 @@
+name: .NET CI
+
+on: [push]  # Triggers on every push
+
+jobs:
+  build-and-test:
+    runs-on: windows-latest  # Use Windows runner for C# (or ubuntu-latest)
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'  # Adjust to your .NET version (6.0, 7.0, etc.)
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build
+        run: dotnet build --configuration Release --no-restore
+
+      - name: Test
+        run: dotnet test --no-build --verbosity normal
