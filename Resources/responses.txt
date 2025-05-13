@@ -1,7 +1,55 @@
-how are you: I'm just a bot, but I'm here to help you, {0}! How can I assist you today?
-what's your purpose: My purpose is to help you stay safe online, {0}. I can provide tips on password safety, phishing, and safe browsing.
-what can i ask you: You can ask me about cybersecurity topics like password safety, phishing, and safe browsing, {0}.
-password safety: Creating a strong password is crucial, {0}. Use a mix of letters, numbers, and special characters. Avoid using common words or personal information as well as using a single password for different sites.
-phishing: Phishing is a type of online scam where attackers try to trick you into giving them your personal information. Always verify the sender's email address and avoid clicking on suspicious links, {0}.
-safe browsing: To browse safely, {0}, make sure to use HTTPS websites, avoid downloading files from untrusted sources, and keep your browser and antivirus software up to date.
-default: I didn't quite understand that, {0}. Could you rephrase or ask about cybersecurity topics like password safety, phishing, or safe browsing?
+# Password Security
+password: Strong passwords should be at least 12 characters long and include uppercase, lowercase, numbers and symbols, {0}.
+password: Consider using passphrases instead of passwords - they're longer but easier to remember, {0}. Example: 'PurpleTiger$JumpsOver42Clouds!'
+password: Never reuse passwords across different sites, {0}. If one gets compromised, they all become vulnerable.
+password: Password managers can generate and store complex passwords securely, {0}. They only require you to remember one master password.
+
+# Phishing
+phishing: Phishing emails often create urgency ('Your account will be closed!') or offer too-good-to-be-true deals, {0}.
+phishing: Always check the sender's email address carefully, {0}. Scammers often use addresses that look similar to legitimate ones.
+phishing: Hover over links before clicking to see the actual URL, {0}. If it looks suspicious, don't click!
+phishing: Legitimate companies will never ask for sensitive information via email, {0}. When in doubt, contact the company directly.
+
+# Malware
+malware: Malware includes viruses, worms, trojans and spyware, {0}. Keep your antivirus updated and avoid suspicious downloads.
+malware: Signs of malware infection include slow performance, pop-ups, and unexplained network activity, {0}.
+
+# Ransomware
+ransomware: Ransomware encrypts your files and demands payment for decryption, {0}. Regular backups are your best defense.
+ransomware: Never pay ransomware attackers, {0}. There's no guarantee you'll get your files back, and it funds criminal activity.
+
+# VPN
+vpn: VPNs encrypt your internet traffic, protecting your data on public Wi-Fi, {0}. Choose reputable providers with no-log policies.
+vpn: While VPNs enhance privacy, they don't make you completely anonymous online, {0}.
+
+# Two-Factor Authentication
+2fa: Two-factor authentication (2FA) adds an extra layer of security beyond passwords, {0}. Use authenticator apps instead of SMS when possible.
+2fa: Even if someone gets your password, 2FA can prevent them from accessing your account, {0}.
+
+# Encryption
+encryption: Encryption scrambles data so only authorized parties can read it, {0}. Look for HTTPS and the lock icon in browsers.
+encryption: End-to-end encryption (like in Signal/WhatsApp) protects your messages even from service providers, {0}.
+
+# Social Engineering
+social engineering: Social engineering manipulates people into revealing information, {0}. Always verify identities before sharing details.
+social engineering: "Hi, I'm from IT - what's your password?" is always a scam, {0}. Real IT never asks for credentials this way.
+
+# IoT Security
+iot security: Change default passwords on smart devices, {0}. Many IoT attacks exploit factory-set admin/password combos.
+iot security: Keep IoT firmware updated, {0}. Unpatched devices are easy targets for botnets.
+
+# Zero Day Vulnerabilities
+zero day: Zero-days are unknown flaws that attackers exploit before patches exist, {0}. Reduce risk by limiting software privileges.
+zero day: Organizations offer bug bounties for reporting vulnerabilities responsibly, {0}.
+
+# Default Responses
+default: I didn't quite understand that, {0}. I specialize in cybersecurity topics like passwords, malware, and network security.
+default: I'm not sure about that, {0}. Ask me about protecting yourself online - I know lots about security best practices!
+
+# Sentiment Responses
+worried: I understand cybersecurity can feel overwhelming, {0}. Let's break this down into manageable steps.
+worried: It's completely normal to feel concerned, {0}. The good news is there are simple steps you can take to protect yourself.
+frustrated: I hear your frustration, {0}. Technology should work for you, not against you. Let me simplify this.
+frustrated: Security can sometimes feel inconvenient, {0}, but these measures exist to protect what's important to you.
+confused: Let me explain that differently, {0}. Cybersecurity concepts can be tricky at first.
+confused: I'll break this down into simpler terms, {0}. Everyone starts somewhere with these concepts.
