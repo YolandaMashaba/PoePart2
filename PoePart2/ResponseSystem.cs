@@ -100,8 +100,8 @@ namespace PoePart2
 
             responses["default"] = new List<string>
             {
-                "I didn't quite understand that, {0}. I specialize in cybersecurity topics like: " + string.Join(", ", cybersecurityKeywords.Take(5)) + "...",
-                "I'm not sure about that, {0}. Ask me about cybersecurity topics like password safety, malware protection, or secure browsing."
+                 "I didn't quite understand that, {0}. Try asking about: passwords, phishing, or malware.",
+                 "I'm not sure about that topic, {0}. I can help with cybersecurity basics."
             };
 
             InitializeSentimentResponses();
